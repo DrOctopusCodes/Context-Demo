@@ -1,0 +1,28 @@
+.mainContainer{
+    width: 60%;
+    margin: 60px auto 40px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.heading{
+    margin: 0 auto 20px auto;
+    width: fit-content;
+}
+
+.row{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px;
+    height: 50px;
+}
+
+.input{
+    height: 30px;
+}
